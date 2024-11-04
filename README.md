@@ -34,3 +34,10 @@ Password: password
  - For API authentication, I use Sanctum. 
  - For permission checks, I use a simple helper to verify if a user is an admin. All other permission
    logic is handled directly within the controllers.
+
+
+-----------------
+
+**Pest Testing**
+
+Check if user can get token | Run this in cli `./vendor/bin/pest tests/Feature/AuthToken.php`  
