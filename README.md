@@ -28,3 +28,9 @@ Password: password
 
 >  inscope\database\seeders\UserSeeder.php
 
+
+-----------------
+
+ - For API authentication, I use Sanctum. 
+ - For permission checks, I use a simple helper to verify if a user is an admin. All other permission
+   logic is handled directly within the controllers.
