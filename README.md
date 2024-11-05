@@ -12,7 +12,6 @@ This is a Laravel 11 APIs demonstration app designed to help users manage compan
  5. php artisan migrate --seed
 
 
-After this, you need to download the JSON file named `PostmanImport.json` from the root of the project. Then, import it into your local Postman installation.
 
 # Users 
 
